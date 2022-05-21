@@ -35,6 +35,7 @@ import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 image=cv2.imread("curve.jpg")
+cv2.imshow("INPUT IMAGE",image)
 image1=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 cv2.imshow("GRAY_IMAGE",image1)
 cv2.waitKey(0)
